@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../AddRightClickArguments/AddRightClickArguments.csproj" Id="77b122fd-f330-42e1-8f2a-81dc68eadc30" />
+  <Project Path="../TEST-GW-Net-48/TEST_GW _Net4.csproj" Id="93563cec-079c-4926-826c-e16ee4d14fd3" />
+  <Project Path="TEST_GW.csproj" />
+</Solution>

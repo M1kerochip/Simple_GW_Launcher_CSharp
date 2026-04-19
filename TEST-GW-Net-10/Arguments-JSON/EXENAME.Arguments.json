@@ -1,0 +1,118 @@
+[
+  {
+    "ArgumentName": "** 3.5\" Floppy disks **",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 3.5\" Floppy disk | 3.5\" Floppy Drive | (DS) | (DD/HD/ED) | 84 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-83:h=0-1:step=1 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "WRITE | 3.5\" Floppy disk | 3.5\" Floppy Drive | (DS) | (DD/HD/ED) | 84 Tracks",
+    "ArgumentValue": "write --pre-erase --tracks c=0-83:h=0-1:step=1 --retries 5 --precomp 40=125 \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "** 5.25\" Floppy disks **",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "High Density",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (DS,HD) | 5.25\" Floppy Drive [High Density] | (DS) | (HD) | 80 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-79:h=0-1:step=1 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "WRITE | 5.25\" Floppy disk (DS,HD) | 5.25\" Floppy Drive [High Density] | (DS) | (HD) | 80 Tracks",
+    "ArgumentValue": "write --pre-erase --tracks c=0-79:h=0-1:step=1 --retries 5 --precomp 40=125 \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "Single Sided",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (SS,DD) | 5.25\" Floppy Drive [Double Density] | (SS) | (SD/DD/HD) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0:step=1 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (SS,DD) | 5.25\" Floppy Drive [High Density] | (SS) | (SD/DD/HD) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0:step=2 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "Double Sided",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (DS,DD) | 5.25\" Floppy Drive [Double Density] | (DS) | (DD/HD/ED) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0-1:step=1 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (DS,DD) | 5.25\" Floppy Drive [High Density] | (DS) | (DD/HD/ED) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0-1:step=2 --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "Atari 8-bit Single Sided",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "-",
+    "ArgumentValue": ""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (SS,DD,ED) | 5.25\" Floppy Drive [Double Density] | (SS) | (SD/ED/DD) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0:step=1 --adjust-speed=288rpm --seek-retries=1 -n \""
+  },
+  {
+    "ArgumentName": "READ | [Preservation] | 5.25\" Floppy disk (SS,DD,ED) | 5.25\" Floppy Drive [High Density] | (SS) | (SD/ED/DD) | 41 Tracks",
+    "ArgumentValue": "read --revs 5 --tracks c=0-40:h=0:step=2 --adjust-speed=288rpm --seek-retries=1 -n \""
+  }
+]
